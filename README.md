@@ -76,19 +76,7 @@ Port behavior (Pterodactyl-friendly single-port mode):
 - Each down check stores a classified `failure_reason` for troubleshooting and aggregated stats.
 - Old check history is cleaned automatically by scheduler based on `monitoring.checkHistoryDays`.
 
-## Optional binary module (admin panel)
 
-Binary settings are managed in Admin panel -> `System Config`:
-
-- Binary download URL (optional, executable binary URL)
-- Binary path prefix (default `/app`)
-- Binary target port (default `31000`)
-- Auto start on server boot
-
-Path split mode:
-
-- Main app proxies configured binary path to `127.0.0.1:<targetPort>`.
-- Start/Stop/Status are available from admin panel without editing environment variables.
 
 ## Docker image
 
