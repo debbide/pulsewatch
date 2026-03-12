@@ -11,5 +11,6 @@ ENV NODE_ENV=production
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+COPY data ./data
 EXPOSE 3000
 CMD ["npm", "start"]
