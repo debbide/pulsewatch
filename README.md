@@ -92,6 +92,6 @@ Path split mode:
 
 ## Docker image
 
-- Dockerfile is in `node-uptime-monitor/Dockerfile`.
+- Dockerfile is in `Dockerfile`.
 - GitHub Actions workflow `.github/workflows/pulsewatch-image.yml` builds and pushes `linux/amd64` and `linux/arm64` images to GHCR.
 - Published image path: `ghcr.io/debbide/pulsewatch`.
